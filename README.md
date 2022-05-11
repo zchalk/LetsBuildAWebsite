@@ -1,4 +1,3 @@
-# testing123
-this is a test
-a real life test yo
-glkfdjg;eroAIG
+# HTML Debrief
+
+Skills based review for the Junior Web Developer HTML Debrief lesson.

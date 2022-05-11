@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Create a navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Add a header with page heading -->
+    <header>
+      <h1>Insert heading</h1>
+    </header>
+
+    <!-- Your main section will hold all your main page content -->
+    <main>
+
+    <!-- Create a section with paragraph text about yourself -->
+      <section id="blog">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+    <!-- insert an image within the figure element relating to you -->
+      <figure>
+        <img src="./assets/images/harrystyles.png" alt="harrystyles">
+        <!-- Use the figcaption element for a caption to your image -->
+        <figcaption>
+         Harry Styles. Because why not...
+        </figcaption>
+      </figure>
+
+      <!-- add aside content of your choice, could be a paragraph, lists -->
+      <aside>
+        <p>Here's some more information about me!</p>
+        <ul>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+        </ul>
+      </aside>
+
+      <!-- Create a table with your daily schedule -->
+      <section class="container">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">My Daily Schedule.</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="left"><h3>12:00 pm</h3> </td>
+              <td>Event 1</td>
+            </tr>
+            <tr>
+              <td class="left"><h3>01:00 pm</h3> </td>
+              <td>Event 2</td>
+            </tr>
+            <tr>
+              <td class="left"><h3>02:00 pm</h3> </td>
+              <td>Event 3</td>
+            </tr>
+            <tr>
+              <td class="left"><h3>03:00 pm </h3></td>
+              <td>Event 4</td>
+            </tr>
+            <tr>
+              <td class="left"><h3>04:00 pm</h3> </td>
+              <td>Event 5</td>
+            </tr>
+          </tbody>
+            </table>
+        </section>
+
+      <!-- Create a contact form -->
+      <section id="main">
+        <h1>Contact me!</h1>
+        <hr>
+
+        <!--Add your form below:-->
+        <form>
+          <!--Text entry-->
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder=
+  "name" required>
+          <br>
+          <label for="email">Email</label>
+          <input id="email" type="text" name="email" placeholder="email" required>
+          <br>
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" name="subject" required minlength="3">
+
+          <!--Radio button-->
+          <span>Would you like a response back?</span>
+          <input id="yes" type="radio" name="answer" value="yes" required>
+          <label for="yes">Yes</label>
+          <input id="no" type="radio" name="answer" value="no" required>
+          <label for="no">No</label>
+          <br>
+
+
+          <!-- (Challenge) Textbox, can use minlength/maxlength or regex to limit-->
+          <label for="message">Your message: </label>
+          <textarea id="message" rows="8" cols="40" required></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer id="about">
+      <p></p>
+      <p></p>
+    </footer>
+  </body>
+</html>
