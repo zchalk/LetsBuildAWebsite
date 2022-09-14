@@ -12,4 +12,6 @@
 
 **Step 4:** Let's deploy! First we need to push all of our changes to github, then deploy using gitub pages! Github Pages is located in setting -> pages. It should look something like this: ![Pages Screenshot](/assets/images/pages.png)
 
+**Step 5:** Try to deploy using netflify following the guide here: https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/
+
 Click the link to your new github page and it should look something like this: ![Website](/assets/images/website.png)
