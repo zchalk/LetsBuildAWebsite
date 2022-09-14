@@ -14,4 +14,4 @@
 
 **Step 5:** Try to deploy using netflify following the guide here: https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/
 
-Click the link to your new github page and it should look something like this: ![Website](/assets/images/website.png)
+Click the link to your new page and it should look something like this: ![Website](/assets/images/website.png)
