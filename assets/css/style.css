@@ -1,1 +1,17 @@
 /*wait why is this empty? */
+nav h1{
+    color: aqua;
+}
+
+image{
+    height: 200
+}
+
+#italy{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
